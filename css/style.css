@@ -3,3 +3,84 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* intestazione-generico */
+header{
+  height: 400px;
+  background-color: #0C325A;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.header-top{
+  height: 60px;
+  background-color: #0C325A;
+  line-height: 60px;
+}
+.header-top::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /intestazione-generico */
+
+/* intestazione-logo */
+.header-topo-logo{
+  float: left;
+  width: 15%;
+  padding-top: 8px;
+}
+/* /intestazione-logo */
+
+/* intestazione-nav */
+.header-top li{
+  margin: 0 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.menu-inline{
+  list-style: none;
+}
+.menu-inline li{
+  display: inline-block;
+  cursor: pointer;
+}
+/* /intestazione-nav */
+
+/* intestazione-nav-sinistra */
+.header-top-nav-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+/* /intestazione-nav-sinistra */
+
+/* intestazione-nav-destra */
+.header-top-nav-right{
+  float: left;
+  width: 35%;
+  text-align: right;
+}
+#login{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0 12px;
+}
+.button {
+  background-color: #77CF94;
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+/* /intestazione-nav-destra */
