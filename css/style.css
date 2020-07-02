@@ -10,7 +10,7 @@ body{
 
 /* intestazione-generico */
 header{
-  height: 400px;
+  height: 450px;
   background-color: #0C325A;
 }
 .container{
@@ -82,5 +82,27 @@ header{
   font-size: 12px;
   border-radius: 5px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 /* /intestazione-nav-destra */
+
+/* banner */
+.banner{
+  top: 40%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: left;
+}
+.banner h1{
+  color: white;
+}
+.button2{
+  padding: 15px;
+}
+.banner-img{
+  top: 11.5%;
+  right: 5%;
+  position: absolute;
+}
+/* banner */
