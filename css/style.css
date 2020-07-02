@@ -124,7 +124,7 @@ p{
 /* tre colonne */
 .columns{
   width: 33%;
-  height: 450px;
+  height: 500px;
   float: left;
   display: inline-block;
   text-align: center;
