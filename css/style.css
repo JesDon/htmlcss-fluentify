@@ -73,7 +73,7 @@ header{
   padding: 0 12px;
 }
 .button {
-  background-color: #77CF94;
+  background-color: #7CBB02;
   border: none;
   color: white;
   padding: 7px;
@@ -106,3 +106,17 @@ header{
   position: absolute;
 }
 /* banner */
+
+/* barra grigia */
+.grey-bar{
+  height: 150px;
+  background-color: lightgrey;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
+}
+.grey-bar p{
+  font-size: 15px;
+  color: grey;
+}
+/* /barra grigia */
