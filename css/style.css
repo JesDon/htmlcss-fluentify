@@ -115,8 +115,37 @@ header{
   padding-top: 50px;
   line-height: 30px;
 }
-.grey-bar p{
+p{
   font-size: 15px;
   color: grey;
 }
 /* /barra grigia */
+
+/* tre colonne */
+.columns{
+  width: 33%;
+  height: 450px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+}
+.columns img{
+  width: 150px;
+}
+.columns-text-container{
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 30px;
+}
+.columns h3{
+  color: #7CBB02;
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
+.columns p{
+  padding-top: 15px;
+}
+/* tre colonne */
