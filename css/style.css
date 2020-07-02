@@ -13,15 +13,18 @@ header{
   height: 450px;
   background-color: #0C325A;
 }
+
 .container{
   width: 80%;
   margin: auto;
 }
+
 .header-top{
   height: 60px;
   background-color: #0C325A;
   line-height: 60px;
 }
+
 .header-top::after{
   content: "";
   display: block;
@@ -44,9 +47,11 @@ header{
   text-transform: uppercase;
   font-size: 12px;
 }
+
 .menu-inline{
   list-style: none;
 }
+
 .menu-inline li{
   display: inline-block;
   cursor: pointer;
@@ -67,11 +72,7 @@ header{
   width: 35%;
   text-align: right;
 }
-#login{
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 0 12px;
-}
+
 .button {
   background-color: #7CBB02;
   border: none;
@@ -84,6 +85,15 @@ header{
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.login{
+ background-color: #0C325A;
+ border: 1px solid white;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+
 /* /intestazione-nav-destra */
 
 /* banner */
@@ -94,12 +104,15 @@ header{
   position: absolute;
   text-align: left;
 }
+
 .banner h1{
   color: white;
 }
+
 .button2{
   padding: 15px;
 }
+
 .banner-img{
   top: 11.5%;
   right: 5%;
@@ -115,6 +128,7 @@ header{
   padding-top: 50px;
   line-height: 30px;
 }
+
 p{
   font-size: 15px;
   color: grey;
@@ -130,15 +144,18 @@ p{
   text-align: center;
   padding-top: 30px;
 }
+
 .columns img{
   width: 150px;
 }
-.columns-text-container{
+.columns-tex
+t-container{
   width: 300px;
   text-align: center;
   display: inline-block;
   padding-top: 30px;
 }
+
 .columns h3{
   color: #7CBB02;
   border-bottom: 1px solid grey;
@@ -148,4 +165,5 @@ p{
 .columns p{
   padding-top: 15px;
 }
+
 /* tre colonne */
