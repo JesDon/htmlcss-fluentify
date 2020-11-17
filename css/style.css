@@ -35,7 +35,7 @@ header{
 /* intestazione-logo */
 .header-topo-logo{
   float: left;
-  width: 15%;
+  width: 12%;
   padding-top: 8px;
 }
 /* /intestazione-logo */
@@ -61,7 +61,7 @@ header{
 /* intestazione-nav-sinistra */
 .header-top-nav-left{
   float: left;
-  width: 50%;
+  width: 45%;
   text-align: left;
 }
 /* /intestazione-nav-sinistra */
@@ -69,7 +69,7 @@ header{
 /* intestazione-nav-destra */
 .header-top-nav-right{
   float: left;
-  width: 35%;
+  width: 43%;
   text-align: right;
 }
 
@@ -92,8 +92,6 @@ header{
  padding-left: 15px;
  padding-right: 15px;
 }
-
-
 /* /intestazione-nav-destra */
 
 /* banner */
@@ -114,7 +112,8 @@ header{
 }
 
 .banner-img{
-  top: 11.5%;
+  width: 800px;
+  top: 18%;
   right: 5%;
   position: absolute;
 }
@@ -148,8 +147,7 @@ p{
 .columns img{
   width: 150px;
 }
-.columns-tex
-t-container{
+.columns-text-container{
   width: 300px;
   text-align: center;
   display: inline-block;
@@ -165,5 +163,4 @@ t-container{
 .columns p{
   padding-top: 15px;
 }
-
 /* tre colonne */
